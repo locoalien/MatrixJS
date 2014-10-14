@@ -1,4 +1,4 @@
-MatrixConsole (Desarrollador por @locoalien) 
+MatrixJS (Desarrollador por @locoalien) 
 ==============================================
 Sitio web: www.locoaliensoft.com
 Twitter: www.twitter.com/locoalien 
