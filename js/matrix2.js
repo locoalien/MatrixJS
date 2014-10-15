@@ -20,7 +20,7 @@ function matrixjs(){
 	contexto= c.getContext('2d');//Muy importante especificar el contexto en el cual vamos a trabajar
 
 	function dibujar(){
-		contexto.fillStyle="rgba(0,0,0,0.05)";//Damos el color que tendra el recuadro en el que estara la animacion. en este caso sera transparente 0.05
+		contexto.fillStyle="rgba(0,0,0,0.05)"; //Damos el color que tendra el recuadro en el que estara la animacion. en este caso sera transparente 0.05
 		contexto.fillRect(0,0,c.width,c.height);//Damos las dimensiones alto y ancho que tendra el cuadrado, que en este caso es de toda la pantalla
 
 		contexto.fillStyle= "#0f0";//Color de las letras

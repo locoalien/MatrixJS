@@ -35,7 +35,7 @@ function matrixjs(){
 		contexto.fillRect(0,0,c.width,c.height);//Damos las dimensiones alto y ancho que tendra el cuadrado, que en este caso es de toda la pantalla
 
 		contexto.fillStyle= "#0f0";//Color de las letras
-		contexto.font= letraTam+"px arial";//Tamaño de la letra
+		contexto.font= letraTam+"px arial"; //Tamaño de la letra
 
 		for(var i=0;i<letras.length;i++){
 			text=elegirTexto();
