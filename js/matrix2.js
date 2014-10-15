@@ -5,10 +5,10 @@ function hacking(){
 	c.height = window.innerHeight;  //innerHeight se utiliza para saber la altura de la pantalla
 	c.width = window.innerWidth;    //innerHeight se utiliza para saber la altura de la pantalla
 
-	
+
 	var letraTam=15; //Tamaño de la letras por pixel
 	var columnas=c.width/letraTam; //El ancho dividido por el tamano que tendra las letras
-	
+
 	var Texto="01"; //El testo que aparecera en pantalla
 	Texto=Texto.split("");//La función split() permite dividir una cadena de caracteres (string) en varios bloques y crear un array con estos
 
@@ -27,7 +27,7 @@ function hacking(){
 
 		for(var i=0;i<letras.length;i++){
 			text=Texto; //Le asigno el texto que definimos en la parte de arriba
-			//El ciclo for me permite darle las coordenadas correctas para posicionar el text x, y 
+			//El ciclo for me permite darle las coordenadas correctas para posicionar el text x, y
 			contexto.fillText(text,i*letraTam, letras[i]*letraTam);//Para imprimir texto disponesmos de fillText(texto,x,y)
 
 			if(letras[i]*letraTam > c.height && Math.random()>0.975){
