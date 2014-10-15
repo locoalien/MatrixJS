@@ -1,6 +1,7 @@
 
+window.onload = matrixjs;//Llamamos a la funcion despues de que el documento ha sido cargado completamente
 
-function hacking(){
+function matrixjs(){
 	var c = document.getElementById("locoalien");
 	c.height = window.innerHeight;  //innerHeight se utiliza para saber la altura de la pantalla
 	c.width = window.innerWidth;    //innerHeight se utiliza para saber la altura de la pantalla
