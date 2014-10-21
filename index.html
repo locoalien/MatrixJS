@@ -69,7 +69,7 @@ index.html   Pagina principal que ejecuta el Script
 
 <p>Ahora se explicara cada linea de codigo de JavaScript, y la logica empleada para llegar al resultado final. La idea principal, es que usted como estudiante o desarrollador, pueda aportar y modificar a su antonjo el Script.</p>
 
-<p>En la siguiente linea de codigo se observa como llamamos a la funcion principal, una vez el diseño pagina HTML es cargada completamente. En este caso el INDEX.HTML</p>
+<p>En la siguiente linea de codigo se observa como se llama a la funcion principal, una vez el diseño o pagina HTML es cargada completamente. En este caso el INDEX.HTML</p>
 
 <pre><code>window.onload = matrixjs;
 </code></pre>
@@ -85,6 +85,12 @@ index.html   Pagina principal que ejecuta el Script
 La siguiente linea permite obtener el identificador del canvas, el cual se almacenara en una variable llamada C. Se hace uso del DOM de JavaScript para obtener mediante document.getElementById las propiedades y elementos del canvas.</p>
 
 <pre><code>var c = document.getElementById("locoalien");
+</code></pre>
+
+<p>Las siguientes lineas de codigo seran importantes, ya que definen el ancho y alto de la animacion en Canvas. Para acceder a estas propiedades del Canvas haciendo enfacis de que se trata de la pantalla, llamandolo con la propiedad "window".</p>
+
+<pre><code>c.height = window.innerHeight; 
+c.width = window.innerWidth; 
 </code></pre>
 
 <h3>
