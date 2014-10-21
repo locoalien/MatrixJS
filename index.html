@@ -93,10 +93,22 @@ La siguiente linea permite obtener el identificador del canvas, el cual se almac
 c.width = window.innerWidth; 
 </code></pre>
 
-<p>Se crea una variable que tendra el tamaño de la letra Matrix. Y despues se divide el ancho de la pantalla por el tamano que tendra la letra. Esto con el fin de ser proporcional al tamano de cada pantalla.</p>
+<p>Se crea una variable que tendra el tamaño de la letra Matrix. Obtendremos el numero total de columnas gracias a la division del tamaño de la letra y el ancho de la pantalla.</p>
 
 <pre><code>var letraTam=15;
 var columnas=c.width/letraTam;
+</code></pre>
+
+<p>Se crea a continacion un vector, en el cual se almacenara el valor de la letra. Recordar que para el caso de este programa y para brindar un mayor "Realismo", las letras apareceran aleatoriamente teniendo encuenta todos los lenguajes y sintaxis encontrados en la tabla ASCII. Esto se vera mas detalladamente mas adelante.</p>
+
+<pre><code>var letras=[];
+</code></pre>
+
+<p>La siguiente linea de codigo, permitira inicializar el vector con el numero "1", el cual lo haremos con un ciclo "FOR" recorriendo el numero total de columnas que se encuentran en la pantalla.</p>
+
+<pre><code>for(var i=0; i&lt;columnas;i++){
+   letras[i]=1;
+}
 </code></pre>
 
 <h3>
