@@ -18,7 +18,7 @@
         <h1>MatrixJS</h1>
         <p>Simulacion de la consola de Matrix, utilizando HTML5, JavaScript.</p>
 
-        <p class="view"><a href="https://github.com/locoalien/MatrixJS">Ver el proyecto en GitHub <small>locoalien/MatrixJS</small></a></p>
+        <p class="view"><a href="https://github.com/locoalien/MatrixJS">View the Project on GitHub <small>locoalien/MatrixJS</small></a></p>
 
 
         <ul>
@@ -93,7 +93,11 @@ La siguiente linea permite obtener el identificador del canvas, el cual se almac
 c.width = window.innerWidth; 
 </code></pre>
 
-<p>Creamos una variable que tendra el tamaño de la letra</p>
+<p>Se crea una variable que tendra el tamaño de la letra Matrix. Y despues se divide el ancho de la pantalla por el tamano que tendra la letra. Esto con el fin de ser proporcional al tamano de cada pantalla.</p>
+
+<pre><code>var letraTam=15;
+var columnas=c.width/letraTam;
+</code></pre>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
@@ -106,9 +110,8 @@ c.width = window.innerWidth;
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
       <footer>
-        <p>Proyecto desarrollador por <a href="https://github.com/locoalien">locoalien</a></p>
-        <p><small>Twitter:<a href="https://www.twitter.com/locoalien"> @locoalien</a></small></p>
-        
+        <p>This project is maintained by <a href="https://github.com/locoalien">locoalien</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
