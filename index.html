@@ -121,6 +121,16 @@ var columnas=c.width/letraTam;
 
 <p>Se crea una funcion llamada "Dibujar". Como su nombre indica, permitira dibujar y crear la animacion final, que dara la apariencia de la pelicula "Matrix". Para esto se utilizan las siguientes lineas de codigo:</p>
 
+<p>Definimos el color que tendra el fondo del canvas.  Como es logico, elegiremos el color negro para esto. Utilizamos la propiedad de JavaScript llamada FillStyle la cual permite asignar un color.</p>
+
+<pre><code>contexto.fillStyle="rgba(0,0,0,0.05)";
+</code></pre>
+
+<p>El contexto representa las propiedades que se asignaran al Canvas. Ahora se creara un cuadrado en el cual estara toda la animacion y efectos para la letra de "Matrix". Para crear un cuadrado en JavaScript se utiliza la propiedad fillRect, la cual tiene como parametros las coordenadas iniciales y finales del canvas. Obtenemos el ancho del Canvas (c.width) y la altura del canvas (c.height).</p>
+
+<pre><code>contexto.fillRect(0,0,c.width,c.height);
+</code></pre>
+
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
