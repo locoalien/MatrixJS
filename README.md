@@ -1,6 +1,5 @@
-MatrixJS (Desarrollador por @locoalien) 
+MatrixJS 
 ==============================================
-Sitio web: www.locoaliensoft.com
 Twitter: www.twitter.com/locoalien 
 Facebook: www.facebook.com/CulturaInformatica
 
