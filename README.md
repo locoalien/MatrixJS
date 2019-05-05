@@ -1,7 +1,6 @@
 MatrixJS 
 ==============================================
 Twitter: www.twitter.com/locoalien 
-Facebook: www.facebook.com/CulturaInformatica
 
 Para ver el demo ejecutandose Ingresa a este link: http://codepen.io/locoalien/pen/xtprs
 
